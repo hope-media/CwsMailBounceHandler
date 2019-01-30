@@ -2,19 +2,19 @@
 
 ## About
 
-📬 PHP class to help webmasters handle bounce-back, feedback loop and ARF mails in standard DSN (Delivery Status Notification, RFC-1894).
+PHP class to help webmasters handle bounce-back, feedback loop and ARF mails in standard DSN (Delivery Status Notification, RFC-1894).
 It checks your IMAP inbox or eml files and delete or move all bounced emails.
 If a bounce is malformed, it tries to extract some useful information to parse status.
 
 ## Requirements
 
-* PHP >= 5.4
-* Enable the [php_imap](http://php.net/manual/en/book.imap.php) extension if you want to use the IMAP open mode.
+-   PHP >= 5.4
+-   Enable the [php_imap](http://php.net/manual/en/book.imap.php) extension if you want to use the IMAP open mode.
 
 ## Installation
 
 ```bash
-composer require crazy-max/cws-mail-bounce-handler
+composer require hope-media/cws-mail-bounce-handler
 ```
 
 And download the code:
@@ -30,9 +30,7 @@ You can use the eml files in the `tests/emls` folder for testing.
 
 ## Post-process
 
-A result object `Cws\MailBounceHandler\Models\Result` is available to process custom post-actions :
-
-![](.res/example.png)
+A result object `Cws\MailBounceHandler\Models\Result` is available to process custom post-actions.
 
 ## Methods
 
@@ -56,6 +54,7 @@ A result object `Cws\MailBounceHandler\Models\Result` is available to process cu
 **setProcessMode** - Set the method to process bounces.<br />
 **getMailboxService** - Mailbox service.<br />
 **setImapMailboxService** - Set the mailbox service to IMAP. (default)<br />
+**setPop3MailboxService** - Set the mailbox service to POP3.<br />
 **setMailboxService** - Set the mailbox service.<br />
 **getMailboxHost** - Mailbox host server.<br />
 **setMailboxHost** - Set the mailbox host server. (default localhost)<br />
@@ -85,8 +84,8 @@ A result object `Cws\MailBounceHandler\Models\Result` is available to process cu
 
 ## How can i help ?
 
-All kinds of contributions are welcomed :raised_hands:!<br />
-The most basic way to show your support is to star :star2: the project, or to raise issues :speech_balloon:<br />
+All kinds of contributions are welcomed!<br />
+The most basic way to show your support is to star the project, or to raise issues.<br />
 
 ## License
 

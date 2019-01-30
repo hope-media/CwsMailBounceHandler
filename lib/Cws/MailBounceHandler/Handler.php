@@ -2374,6 +2374,14 @@ class Handler
     }
 
     /**
+     * Set the mailbox service to POP3.
+     */
+    public function setPop3MailboxService()
+    {
+        $this->setMailboxService(self::MAILBOX_SERVICE_POP3);
+    }
+
+    /**
      * Set the mailbox service to IMAP.
      */
     public function setImapMailboxService()

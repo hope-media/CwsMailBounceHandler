@@ -1,11 +1,20 @@
 {
-  "name": "crazy-max/cws-mail-bounce-handler",
+  "name": "hope-media/cws-mail-bounce-handler",
   "type": "library",
   "description": "PHP class to help webmasters handle bounce-back, feedback loop and ARF mails in standard DSN (Delivery Status Notification, RFC-1894).",
-  "keywords": ["mail", "bounce", "dsn", "arf"],
-  "homepage": "https://github.com/crazy-max/CwsMailBounceHandler",
+  "keywords": [
+    "mail",
+    "bounce",
+    "dsn",
+    "arf"
+  ],
+  "homepage": "https://github.com/hope-media/CwsMailBounceHandler",
   "license": "MIT",
   "authors": [
+    {
+      "name": "Hope Media",
+      "homepage": "https://github.com/hope-media"
+    },
     {
       "name": "CrazyMax",
       "homepage": "https://github.com/crazy-max"
